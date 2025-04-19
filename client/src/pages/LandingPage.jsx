@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '@/components/ui/Button';  
+import Button from '../components/ui/Button'; 
 import { User } from 'lucide-react';
 
 export default function LandingPage() {
