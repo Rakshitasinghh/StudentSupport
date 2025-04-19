@@ -36,7 +36,7 @@ export default function LandingPage() {
           </h1>
           <div className="mt-8 flex flex-col md:flex-row gap-4 justify-center md:justify-start">
             <Button className="bg-[#f26a21] hover:bg-[#e25c0f] text-white px-6 py-2 rounded-full">Sign in</Button>
-            <Button className="bg-white border border-[#f26a21] text-[#f26a21] hover:bg-[#f26a21] hover:text-white px-6 py-2 rounded-full">Sign up</Button>
+            <Button className="bg-white border border-[#f26a21] text-[#FFFFFF] hover:bg-[#FF7B08] hover:text-white px-6 py-2 rounded-full">Sign up</Button>
           </div>
         </div>
       </div>

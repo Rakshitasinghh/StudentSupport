@@ -5,7 +5,7 @@ import React from 'react';
 const Button = ({ children, className, onClick }) => {
   return (
     <button
-      className={`bg-[#f26a21] hover:bg-[#e25c0f] text-white px-6 py-2 rounded-full ${className}`}
+      className={`bg-[#E88025] hover:bg-[#E88025] text-white px-6 py-2 rounded-full ${className}`}
       onClick={onClick}
     >
       {children}
