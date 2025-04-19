@@ -43,3 +43,6 @@ export default function LandingPage() {
     </div>
   );
 }
+
+read the text on screen 
+do u want the changes i made in rakshita branch?
