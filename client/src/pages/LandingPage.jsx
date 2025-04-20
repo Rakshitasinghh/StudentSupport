@@ -11,10 +11,10 @@ export default function LandingPage() {
       {/* Navbar */}
       <nav className="flex items-center justify-between px-6 py-4 shadow-sm">
         <div className="flex items-center gap-2">
-          <img src={revalogo} alt="Reva Logo" style={{ width: '297px', height: 'auto' }} />
+          <img src={revalogo} alt="Reva Logo" style={{ width: '220px', height: 'auto' }} />
           
         </div>
-        <div className="flex items-center gap-6 text-2xl font-medium text-gray-700">
+        <div className="flex items-center gap-6 text-lg font-medium text-gray-700">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Community</a>
