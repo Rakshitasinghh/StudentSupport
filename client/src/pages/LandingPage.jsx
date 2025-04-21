@@ -15,9 +15,9 @@ export default function LandingPage() {
           
         </div>
         <div className="flex items-center gap-6 text-lg font-medium text-gray-700">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Community</a>
+          <a href="#" className="!text-black">Home</a>
+          <a href="#" className="!text-black">About</a>
+          <a href="#" className="!text-black">Community</a>
           <User className="w-8 h-8 cursor-pointer" />
         </div>
       </nav>

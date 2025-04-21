@@ -15,27 +15,27 @@ export default function Complaint() {
         </div>
 
         <div className="flex items-center space-x-8 text-gray-800 font-medium">
-          <a href="#" className="hover:text-[#f26a21]">Home</a>
-          <a href="#" className="hover:text-[#f26a21]">About</a>
-          <a href="#" className="hover:text-[#f26a21] border-b-2 border-[#f26a21]">Complaint</a>
-          <User className="w-5 h-5 hover:text-[#f26a21]" />
+          <a href="#" className="!text-black hover:text-black">Home</a>
+          <a href="#" className="!text-black hover:text-black">About</a>
+          <a href="#" className="!text-black hover:text-[#f26a21] border-b-2 border-[#f26a21]">Complaint</a>
+          <User className="w-5 h-5 hover:text-black" />
         </div>
-      </nav>
+      </nav>  
 
       {/* Greet text */}
-      <div className="px-10 py-4 text-lg font-medium text-[#1e1e1e]">Hi! Student..</div>
+      <div className="px-10 py-4 text-lg font-medium text-[#1e1e1e]">Hi! Student...</div>
 
       {/* Chat Container */}
-      <div className="bg-[#f26a21] rounded-t-2xl px-6 py-6 mt-auto">
+      <div className="bg-[#f26a21]  px-6 py-6 mt-auto">
         {/* Robot bubble */}
         <div className="flex items-start gap-3 mb-6">
-      <img src="/robot.png" alt="Robot" className="w-10 h-10" />
-      <div className="bg-white text-gray-800 text-sm px-4 py-2 rounded-lg shadow max-w-[70%]">
-        Hey! Please drop your complaint below...
-     </div>
-</div>
+          <img src={robot} alt="Robot" className="w-8 h-10" />
+          <div className="bg-white text-gray-800 text-sm px-4 py-2 rounded-full shadow max-w-[75%] w-162 ">
+            Hey! Please drop your complaint below...
+          </div>
+        </div>
         {/* User Input Section */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-end gap-3 ml-150">
           {/* Message input with mic inside */}
           <div className="flex items-center bg-white rounded-full px-4 py-2 flex-grow shadow">
             <Mic className="w-4 h-4 text-gray-500 mr-2" />
@@ -47,8 +47,8 @@ export default function Complaint() {
           </div>
 
           {/* Send Button */}
-          <button className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
-            <Send className="w-4 h-4 text-[#f26a21]" />
+          <button className="!bg-[#f29d38] p-2 rounded-full shadow hover:bg-gray-100">
+            <Send className="w-4 h-4 text-[#ffffff]" />
           </button>
         </div>
       </div>
