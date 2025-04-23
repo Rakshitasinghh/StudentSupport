@@ -45,4 +45,4 @@ export default function LandingPage() {
       </div>
     </div>
   );
-}
+console.log('Rendering Landing Page');}
