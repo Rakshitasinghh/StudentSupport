@@ -15,10 +15,11 @@ export default function Complaint() {
         </div>
 
         <div className="flex items-center space-x-8 text-gray-800 font-medium">
-          <a href="#" className="!text-black hover:text-black">Home</a>
+          <a href="#" className="!text-black hover:text-black">Home</a>          
           <a href="#" className="!text-black hover:text-black">About</a>
           <a href="#" className="!text-black hover:text-[#f26a21] border-b-2 border-[#f26a21]">Complaint</a>
-          <User className="w-5 h-5 hover:text-black" />
+          
+          <span>👤</span>
         </div>
       </nav>  
 

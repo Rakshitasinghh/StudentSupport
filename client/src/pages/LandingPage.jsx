@@ -18,7 +18,7 @@ export default function LandingPage() {
           <a href="#" className="!text-black">Home</a>
           <a href="#" className="!text-black">About</a>
           <a href="#" className="!text-black">Community</a>
-          <User className="w-8 h-8 cursor-pointer" />
+          <span>👤</span>
         </div>
       </nav>
 
