@@ -25,14 +25,14 @@ const About = () => {
       {/* Image Grid */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px", justifyItems: "center" }}>
         {/* Row 1 */}
-        <img src={collage} alt="REVA Campus" className="w-[700px] h-[244px] object-cover ml-[500px]" />
-         <img src={entrance} alt="Entrance" className="w-[382px] h-[245px] object-cover ml-[450px]" />
+        <img src={collage} alt="REVA Campus" className="w-[720px] h-[244px] object-cover ml-[500px]" />
+         <img src={entrance} alt="Entrance" className="w-[400px] h-[245px] object-cover ml-[450px]" />
          <div></div>{/* Empty div to fill 3rd cell in first row */}
 
        {/* Row 2 */}
      <img src={student} alt="Students" className="w-[254px] h-[201px] object-cover ml-[250px]" />
-     <img src={lib} alt="Library Block" style={{ width: "479px", height: "201px", objectFit: "cover" }} />
-     <img src={rangasthala} alt="Open Theater" className="w-[249px] h-[202px] object-cover -ml-[190px]" />
+     <img src={lib} alt="Library Block" class="w-[479px] h-[201px] object-cover" />
+     <img src={rangasthala} alt="Open Theater" className="w-[229px] h-[202px] object-cover -ml-[210px]" />
       </div>
         
 
