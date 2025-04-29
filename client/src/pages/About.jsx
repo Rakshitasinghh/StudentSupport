@@ -31,8 +31,8 @@ const About = () => {
 
        {/* Row 2 */}
      <img src={student} alt="Students" className="w-[254px] h-[201px] object-cover ml-[250px]" />
-     <img src={lib} alt="Library Block" class="w-[479px] h-[201px] object-cover" />
-     <img src={rangasthala} alt="Open Theater" className="w-[229px] h-[202px] object-cover -ml-[210px]" />
+     <img src={lib} alt="Library Block" className="w-[479px] h-[201px] object-cover" />
+     <img src={rangasthala} alt="Open Theater" className="w-[210px] h-[202px] object-cover -ml-[240px]" />
       </div>
         
 
