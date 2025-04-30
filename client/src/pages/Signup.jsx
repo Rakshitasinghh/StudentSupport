@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/ui/Navbar";
 
-const SignIn = () => {
+const Signup = () => {
   return (
     <div style={{ backgroundColor: "#f9f4f0", height: "100vh" }}>
       <Navbar />
@@ -12,14 +12,47 @@ const SignIn = () => {
         alignItems: "center",
         height: "calc(100vh - 100px)"
       }}>
+
+
         <div style={{
           backgroundColor: "#f9c693",
           padding: "40px",
           borderRadius: "20px",
           boxShadow: "0 0 10px rgba(0,0,0,0.1)",
-          width: "400px", // Increased width
+          width: "450px",
+          height:"490px" // Increased width
         }}>
-          <h2 style={{ color: "#EF6C00", marginBottom: "30px" , fontWeight: "bold" }}>Student Sign in</h2>
+          <h2 style={{ color: "#EF6C00", marginBottom: "30px",fontWeight: "bold"  }}>Student Sign up </h2>
+
+          <div style={{ marginBottom: "10px" }}>
+            <label style={{ display: "block", color: "black", marginBottom: "5px" }}>Name</label>
+            <input
+              type="password"
+              style={{
+                width: "100%",
+                padding: "10px",
+                border: "none",
+                borderRadius: "10px",
+                backgroundColor: "white",
+                height: "33px"
+              }}
+            />
+          </div>
+
+          <div style={{ marginBottom: "10px" }}>
+            <label style={{ display: "block", color: "black", marginBottom: "5px" }}>SRN</label>
+            <input
+              type="password"
+              style={{
+                width: "100%",
+                padding: "10px",
+                border: "none",
+                borderRadius: "10px",
+                backgroundColor: "white",
+                height: "33px"
+              }}
+            />
+          </div>
 
           {/* Email Input with @reva.edu.in on right */}
           <div style={{ marginBottom: "20px" }}>
@@ -31,6 +64,7 @@ const SignIn = () => {
               borderRadius: "10px",
               paddingLeft: "10px",
               paddingRight: "10px",
+              height: "33px"
             }}>
               <input
                 type="text"
@@ -57,7 +91,8 @@ const SignIn = () => {
                 padding: "10px",
                 border: "none",
                 borderRadius: "10px",
-                backgroundColor: "white"
+                backgroundColor: "white",
+                height: "33px"
               }}
             />
           </div>
@@ -65,6 +100,7 @@ const SignIn = () => {
           <div style={{ textAlign: "right", fontSize: "12px", color: "#EF6C00", marginBottom: "20px" }}>
             Forget Password?
           </div>
+
 
           <button style={{
             backgroundColor: "#FF7300",
@@ -84,4 +120,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Signup;
